@@ -17,7 +17,6 @@ exports.create = (req, res) => {
     name: req.body.name,
     email: req.body.email,
     cpf: req.body.cpf,
-    birthdate: req.body.birthdate,
     comorbidity: req.body.comorbidity,
     address: req.body.address,
     district: req.body.district,

@@ -18,9 +18,6 @@ module.exports = (sequelize, Sequelize) => {
     cpf: {
       type: Sequelize.STRING
     },
-    birthdate: {
-      type: Sequelize.STRING
-    },
     comorbidity: {
       type: Sequelize.STRING
     },
